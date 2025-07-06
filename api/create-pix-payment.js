@@ -1,7 +1,7 @@
 import mercadopago from 'mercadopago';
 
 mercadopago.configure({
-  access_token: 'SEU_ACCESS_TOKEN_AQUI' // ← Substitua pelo seu token
+  access_token: 'TEST-4421698743839070-050603-b2ef49b07e81b9dcd5f751d3f3c6bd01-482595074' // ← Substitua pelo seu token
 });
 
 export default async function handler(req, res) {
